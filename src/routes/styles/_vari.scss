@@ -1,12 +1,12 @@
 //colors
 
 $textColorMain: #fdfcfa;
-$textSecond: #071f49;
+$textSecond: #fce3b7;
 $backgroundMain:#070202;
 $backgroundSecond:#220c0c;
 $backgroundThird: #980e04;
 $backgroundHallow:rgba(230, 230, 230, 0.9);
-$extra:#fa6204;
+$extra:#aa4506;
 $highlight:#dd2b14;
 $gradient:linear-gradient(90deg, rgb(14, 14, 5) 0%, rgb(19, 48, 51) 35%, rgb(62, 35, 92) 100%);
 
@@ -16,7 +16,8 @@ $shade:0 3px 12px 3px $backgroundSecond;
 $transitSpeed: 0.3s;
 
 //font stack
-$mainFont: 'Blinker', sans-serif;
+$mainFont: 'Blinker',
+sans-serif;
 
 
 // mixins

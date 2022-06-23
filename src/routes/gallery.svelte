@@ -15,22 +15,6 @@
 		<div class="box i"><img src="img/purp.png" alt="" /></div>
 		<div class="box j"><img src="img/purp.png" alt="" /></div>
 	</div>
-
-	<h2>B: like a slide show that scrolls sideways</h2>
-
-	<div class="media-scroller snaps-inline" style="margin-bottom:15% ;">
-		<div class="media-element"><img src="/img/purp.png" alt="" /></div>
-		<div class="media-element"><img src="/img/purp.png" alt="" /></div>
-		<div class="media-element"><img src="/img/purp.png" alt="" /></div>
-		<div class="media-element"><img src="/img/purp.png" alt="" /></div>
-		<div class="media-element"><img src="/img/purp.png" alt="" /></div>
-		<div class="media-element"><img src="/img/purp.png" alt="" /></div>
-		<div class="media-element"><img src="/img/purp.png" alt="" /></div>
-		<div class="media-element"><img src="/img/purp.png" alt="" /></div>
-		<div class="media-element"><img src="/img/purp.png" alt="" /></div>
-		<div class="media-element"><img src="/img/purp.png" alt="" /></div>
-		<div class="media-element"><img src="/img/purp.png" alt="" /></div>
-	</div>
 </body>
 
 <style lang="scss">
