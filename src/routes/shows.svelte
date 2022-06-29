@@ -1,29 +1,43 @@
 <body>
 	<h1>Upcoming Shows</h1>
-	<a href="https://www.brownpapertickets.com/event/5410347/">
-		<tour>SO North West 7-9-2022</tour>
-		<img src="/img/flyerTwo.jpg" alt="" />
-	</a>
+	<background>
+		<a href="https://www.brownpapertickets.com/event/5410347/">
+			<tour>SO North West 7-9-2022</tour>
+			<img src="/img/flyerTwo.jpg" alt="" />
+		</a>
+	</background>
 
-	<a href="https://www.brownpapertickets.com/event/5469054/">
-		<tour>Wicked Warlords 7-15-2022</tour>
-		<img src="/img/baintA.jpg" alt="" />
-	</a>
+	<background>
+		<a href="https://www.brownpapertickets.com/event/5469054/">
+			<tour>Wicked Warlords 7-15-2022</tour>
+			<img src="/img/baintA.jpg" alt="" />
+		</a>
+	</background>
 </body>
 
 <style lang="scss">
 	@import 'styles/components';
 
-	tour {
-		margin: -7% 12%;
-		font-size: 4vw;
-		font-weight: 600;
+	background {
+		tour {
+			margin: -7% 12%;
+			font-size: 4vw;
+			font-weight: 600;
+		}
 	}
-
 	img {
-		width: 60%;
-		height: 60%;
-		margin: 20%;
+		width: 65%;
+		height: 65%;
+		margin: 15%;
 		overflow-x: hidden;
+		@include glassBack;
+
+		&:hover {
+			transition: $transitSpeed ease-in-out;
+			width: 90%;
+			height: 90%;
+			margin: 5%;
+			box-shadow: 0 3px 12px 15px $backgroundSecond;
+		}
 	}
 </style>

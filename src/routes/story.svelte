@@ -4,9 +4,10 @@
 	<h1>Con-Crete</h1>
 	<ul>
 		<li>Age: Unknown</li>
-		<li>Role:Dark minister</li>
+		<li>Role: Dark minister</li>
 		<li>Specialty: Murdering your closest friends.</li>
 		<li><a href="https://www.facebook.com/THEDARKMINISTER/">Social Media Link</a></li>
+		<li><a href="https://www.storefrontier.com/concrete/">Merch Store</a></li>
 	</ul>
 	<p>
 		"CON-CRETE was born on March 11th, 1981 on the wet streets of Seattle, WA in a haunted cemetary
