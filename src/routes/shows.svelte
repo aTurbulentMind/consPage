@@ -9,7 +9,7 @@
 
 	<background>
 		<a href="https://www.brownpapertickets.com/event/5469054/">
-			<tour>Wicked Warlords 7-15-2022</tour>
+			<tour>Wicked Warlords 7-14-2022</tour>
 			<img src="/img/baintA.jpg" alt="" />
 		</a>
 	</background>
@@ -34,8 +34,8 @@
 
 		&:hover {
 			transition: $transitSpeed ease-in-out;
-			width: 90%;
-			height: 90%;
+			width: 85%;
+			height: 85%;
 			margin: 5%;
 			box-shadow: 0 3px 12px 15px $backgroundSecond;
 		}
