@@ -1,0 +1,214 @@
+@import 'vari';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: $backgroundMain;
+    color: $textColorMain;
+    font-family: $mainFont;
+
+    h1 {
+        margin: 7% 12%;
+        font-size: 2vw;
+    }
+
+    a {
+        text-decoration: none;
+        color: $highlight;
+        font-size: 1.35vw;
+    }
+
+    h2 {
+        margin: 7% 12%;
+        font-size: 2.5vw;
+    }
+
+    h3 {
+        margin: 7% 12%;
+        font-size: 2.25vw;
+    }
+
+    p {
+        font-size: 1.25vw;
+        margin: 7% 17%;
+        line-height: 1.5;
+    }
+
+    span {
+        font-weight: 600;
+    }
+
+
+
+    // gallery
+
+    .container {
+        height: fit-content;
+        width: 100%;
+        display: grid;
+        grid-auto-flow: dense;
+        grid-template: "1fr 1fr 1fr 1fr 1fr"33.33vh "1fr 1fr 1fr 1fr 1fr"33.33vh "1fr 1fr 1fr 1fr 1fr"33.33vh;
+        gap: 2%;
+        overflow-y: hidden;
+        margin-bottom: 2%;
+
+
+        .box {
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .a {
+        grid-row: span 2;
+    }
+
+    .b,
+    .f,
+    .h,
+    .j {
+        grid-column: span 2;
+    }
+
+    .vid {
+        max-width: 99%;
+    }
+}
+
+button {
+    @include glassBack;
+
+    margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+    body {
+        h1 {
+            font-size: 4.5vw;
+            margin: 15%;
+        }
+
+        h2 {
+            font-size: 4vw;
+            margin: 15% 17%;
+        }
+
+        h3 {
+            font-size: 3.75vw;
+            margin: 15% 17%;
+        }
+
+        p {
+            margin: 15%;
+            font-size: 3.25vw;
+        }
+
+        a {
+            font-size: 3.5vw;
+            font-weight: 600;
+        }
+
+        //gallery
+        .container {
+            grid-template: "1fr 1fr"250px "1fr 1fr"250px "1fr 1fr "250px "1fr 1fr"250px "1fr 1fr"250px "1fr 1fr"250px "1fr 1fr"575px;
+
+            margin-bottom: 30%;
+        }
+
+        .h {
+            grid-column: span 1;
+        }
+
+        .art-banner-bg {
+            background-size: 60%;
+        }
+
+
+    }
+}
+
+@media only screen and (min-width: 770px) {
+
+    body {
+        h1 {
+            font-size: 3vw;
+            margin: 15%;
+        }
+
+        h2 {
+            font-size: 2.5vw;
+            margin: 15% 18%;
+        }
+
+        h3 {
+            font-size: 2.25vw;
+            margin: 15% 18%;
+        }
+
+        p {
+            margin: 12% 22%;
+            font-size: 1.5vw;
+        }
+
+        a {
+            font-size: 1.75vw;
+        }
+
+        .vid {
+            width: 93vw;
+            height: 100vh;
+        }
+
+        .container {
+            width: 85%;
+            margin: 3%;
+        }
+
+        .k {
+            display: none;
+        }
+    }
+}
+
+/*Extra Large screens */
+@media only screen and (min-width: 1400px) {
+
+    //globals   
+
+    body {
+        h1 {
+            font-size: 2vw;
+            margin: 10% 14%;
+        }
+
+        h2 {
+            font-size: 1.5vw;
+            margin: 10% 14%;
+        }
+
+        h3 {
+            font-size: 1.5vw;
+            margin: 10% 14%;
+        }
+
+        p {
+            margin: 10% 14%;
+            font-size: 1.15vw;
+        }
+
+        a {
+            font-size: 1.15vw;
+        }
+    }
+}
