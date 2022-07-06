@@ -12,7 +12,7 @@
 		<div class="box h"><img src="img/gallow/eight.jpeg" alt="" /></div>
 		<div class="box i"><img src="img/gallow/ten.jpeg" alt="" /></div>
 		<div class="box j"><img src="img/gallow/nine.jpeg" alt="" /></div>
-		<div class="box j"><p><br /> Did you die?</p></div>
+		<div class="box k"><p><br /> Did you die?</p></div>
 	</div>
 </body>
 

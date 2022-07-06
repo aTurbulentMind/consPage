@@ -40,4 +40,18 @@
 			box-shadow: 0 3px 12px 15px $backgroundSecond;
 		}
 	}
+
+	@media only screen and (min-width: 770px) {
+		img {
+			width: 40%;
+			height: 40%;
+			margin: 10% 20%;
+
+			&:hover {
+				width: 40%;
+				height: 40%;
+				margin: 10% 20%;
+			}
+		}
+	}
 </style>

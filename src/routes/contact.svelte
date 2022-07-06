@@ -97,5 +97,9 @@
 			width: 85%;
 			margin: 4% 0 10% 10%;
 		}
+
+		.responsive-boxutton {
+			margin: 4% 15% 4% 0;
+		}
 	}
 </style>

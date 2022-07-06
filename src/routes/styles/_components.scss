@@ -41,6 +41,8 @@ body {
         font-weight: 600;
     }
 
+
+
     // gallery
 
     .container {
@@ -84,6 +86,12 @@ body {
     }
 }
 
+button {
+    @include glassBack;
+
+    margin-top: 5%;
+}
+
 @media (max-width: 768px) {
     body {
         h1 {
@@ -125,20 +133,8 @@ body {
         .art-banner-bg {
             background-size: 60%;
         }
-    }
-}
 
-@media (max-width: 768px) {
-    .container {
-        height: fit-content;
-        grid-template: "1fr 1fr 1fr"250px "1fr 1fr 1fr"250px "1fr 1fr 1fr "250px "1fr 1fr 1fr"250px "1fr 1fr 1fr "250px;
-    }
 
-    p,
-    h1,
-    h2,
-    h3 {
-        margin: 13%;
     }
 }
 
@@ -147,22 +143,22 @@ body {
     body {
         h1 {
             font-size: 3vw;
-            margin: 15% 12%;
+            margin: 15%;
         }
 
         h2 {
             font-size: 2.5vw;
-            margin: 15% 10%;
+            margin: 15% 18%;
         }
 
         h3 {
             font-size: 2.25vw;
-            margin: 15% 10%;
+            margin: 15% 18%;
         }
 
         p {
-            margin: 12% 15%;
-            font-size: 1.75vw;
+            margin: 12% 22%;
+            font-size: 1.5vw;
         }
 
         a {
@@ -172,6 +168,15 @@ body {
         .vid {
             width: 93vw;
             height: 100vh;
+        }
+
+        .container {
+            width: 85%;
+            margin: 3%;
+        }
+
+        .k {
+            display: none;
         }
     }
 }

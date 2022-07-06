@@ -1,5 +1,14 @@
+<script lang="ts">
+	import { navigating } from '$app/stores';
+
+	import { loading } from '$lib/loading';
+	import Loading from '$lib/Loading.svelte';
+
+	$: loading.setNavigate(!!$navigating);
+</script>
+
 <body>
-	<nav sveltekit:prefetch class="navbar">
+	<nav class="navbar">
 		<ul class="navbar-nav">
 			<li class="logo">
 				<a href="/" class="nav-link">
@@ -41,7 +50,7 @@
 						/>
 					</svg>
 
-					<span class="link-text">Music</span>
+					<span class="link-text">Merch & Music</span>
 				</a>
 			</li>
 
@@ -122,6 +131,8 @@
 	</nav>
 
 	<slot />
+
+	<Loading />
 </body>
 
 <style lang="scss">

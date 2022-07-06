@@ -168,7 +168,7 @@
 	}
 
 	.responsive-boxutton {
-		width: 100%;
+		width: 90%;
 		margin: 20px auto;
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -219,6 +219,10 @@
 		img {
 			width: 85%;
 			margin: 4% 0 10% 10%;
+		}
+
+		.responsive-boxutton {
+			margin: 4% 0 4% 0;
 		}
 	}
 </style>

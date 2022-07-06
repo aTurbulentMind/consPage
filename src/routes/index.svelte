@@ -3,7 +3,7 @@
 		<div class="art-banner-bg"><video src="vid/back.mp4" muted loop autoplay /></div>
 		<div class="banner-text">CON-CRETE</div>
 
-		<div class="coaButt2" svelte:prefetch>
+		<div class="coaButt2">
 			<a href="https://www.storefrontier.com/concrete/">
 				<svg viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path
@@ -123,7 +123,7 @@
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, sapiente voluptate. Nobis quae
 			aliquid vitae rerum necessitatibus.
 			<br />
-			<a href="/shows">Check for upcoming dates</a>
+			<button> <a href="/shows">Check for upcoming dates</a></button>
 		</p>
 	</div>
 
@@ -140,7 +140,7 @@
 		"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta alias quaerat doloremque! Qui
 		debitis ad similique quibusdam recusandae consequuntur quaerat vitae illo!"
 		<br />
-		<a href="/gallery">Look at this shit!</a>
+		<button> <a href="/gallery">Look at this shit!</a></button>
 	</p>
 
 	<div class="icom">
@@ -153,7 +153,7 @@
 			cemetary during a Satanic Ritual. Okay that's bullshit, he was born in a hospital, but that
 			shit would have been awesome if it was true.
 			<br />
-			<a href="/story/"> Click here to read more.</a>
+			<button> <a href="/story/"> Click here to read more.</a></button>
 		</p>
 	</div>
 </body>
@@ -219,7 +219,7 @@
 		display: grid;
 		align-self: center;
 		justify-self: center;
-		grid-column: 3;
+		grid-column: 4;
 		grid-row: 4;
 		background-color: $backgroundMain;
 		width: 5vw;
@@ -238,7 +238,7 @@
 
 	.icom {
 		img {
-			max-width: 100%;
+			width: 100vw;
 		}
 	}
 
@@ -255,6 +255,11 @@
 
 			a {
 				padding: 2%;
+			}
+		}
+		.icom {
+			img {
+				height: 100vh;
 			}
 		}
 	}
