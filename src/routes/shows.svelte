@@ -13,6 +13,13 @@
 			<img src="/img/baintA.jpg" alt="" />
 		</a>
 	</background>
+
+	<background>
+		<a href="/upcoming/">
+			<tour>Wicked Warlords 9-24-2022</tour>
+			<img src="/img/showFour.jpg" alt="" />
+		</a>
+	</background>
 </body>
 
 <style lang="scss">

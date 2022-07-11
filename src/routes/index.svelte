@@ -120,8 +120,14 @@
 			<img src="img/albyCover.jpg" alt="" /></a
 		>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, sapiente voluptate. Nobis quae
-			aliquid vitae rerum necessitatibus.
+			There is a bunch of cool shit for you to buy, so people will know for sure that their mother
+			is about to be murdered in front of them.
+			<br />
+			<button><a href="/music"> BUY SOMETHING!</a></button>
+		</p>
+
+		<p>
+			Or come watch me Make music happen in real life.
 			<br />
 			<button> <a href="/shows">Check for upcoming dates</a></button>
 		</p>
@@ -136,13 +142,11 @@
 	</p>
 
 	<h2>Pictures of some crazy crap!</h2>
-	<p style="margin-bottom: 30%;">
-		"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta alias quaerat doloremque! Qui
-		debitis ad similique quibusdam recusandae consequuntur quaerat vitae illo!"
+	<p>
+		Want to see a dead body? I'll let you poke it with a stick first.
 		<br />
 		<button> <a href="/gallery">Look at this shit!</a></button>
 	</p>
-
 	<div class="icom">
 		<a href="/story/">
 			<h2>Who am I you ask?</h2>
@@ -238,7 +242,7 @@
 
 	.icom {
 		img {
-			width: 100vw;
+			width: 100%;
 		}
 	}
 
@@ -264,6 +268,12 @@
 		}
 	}
 
-	@media (max-width: 991px) {
+	@media (min-width: 991px) {
+		.icom {
+			img {
+				width: 80%;
+				margin: 10%;
+			}
+		}
 	}
 </style>
